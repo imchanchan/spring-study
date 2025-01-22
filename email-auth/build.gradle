@@ -30,6 +30,10 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	//mail
+	implementation 'org.springframework.boot:spring-boot-starter-mail'
+	//java-mail
+	implementation 'com.sun.mail:jakarta.mail:1.6.7'
 }
 
 tasks.named('test') {
